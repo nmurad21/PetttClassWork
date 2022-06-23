@@ -1,0 +1,105 @@
+.first-navbar {
+  background-color: rgb(89, 182, 89);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 36px;
+  ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 0;
+    padding: 6px;
+    li {
+      a {
+        text-decoration: none;
+        color: white;
+        padding: 15px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.second-navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 50px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  .petlover {
+    font-size: 40px;
+    font-weight: 700;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .connection {
+    ul {
+      list-style: none;
+      display: flex;
+      margin-top: 15px;
+      li {
+        padding: 6px;
+        text-align: center;
+        .email {
+          border-right: 1px solid grey;
+          border-left: 1px solid grey;
+          padding: 0 15px;
+        }
+        span {
+          display: block;
+        }
+        .text {
+          font-weight: 600;
+        }
+        .time {
+          color: grey;
+        }
+      }
+    }
+  }
+}
+.thrid-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  background-color: black;
+  .direction {
+    ul {
+      list-style: none;
+      display: flex;
+      margin-bottom: 0;
+      li {
+          a {
+            &:hover{
+                background-color: rgb(255, 123, 0);
+                color: black;
+            }
+          display: inline-block;
+          text-decoration: none;
+          color: white;
+          padding: 32px 25px ;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .btn{
+      button{
+        padding: 10px 20px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: rgb(255, 123, 0) ;
+        color: white;
+        &:hover{
+            background-color: rgba(255, 123, 0, 0.884);
+            transition: 0.5s;
+        }
+      }
+  }
+}
